@@ -26,6 +26,7 @@ public class EntendendoNumeros {
 		System.out.println("O resultado da subtracao foi " + subtracao);
 		System.out.println("O produto da mutiplicação foi " + multiplicacao);
 		System.out.println("O produto da divisao foi " + divisao);
+		leitor.close();
 	}
 
 }
