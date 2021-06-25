@@ -16,7 +16,8 @@ public class Exercicio01 {
 		resultado = valor*cotacao;
 		
 		System.out.println("O valor em reais foi de R$" + String.format("%.2f",resultado));
-			
+		leitor.close();
+		
 	}
 
 }
