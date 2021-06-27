@@ -9,6 +9,7 @@ public class Exercicio02 {
 		
 		Scanner leitor = new Scanner(System.in);
 		
+		System.out.println("CALCULADORA DE COMSUMO");
 		System.out.println("Por favor, digite o número de quilometros apresentado no painel no início da viagem:");
 		qtdKmInicio = leitor.nextInt();
 		
@@ -20,7 +21,7 @@ public class Exercicio02 {
 		
 		mediaKm = (qtdKmTermino - qtdKmInicio) / qtdCombustivel;
 		
-		System.out.println("A média de quilometros por litro foi de: " + mediaKm + "Km/l");
+		System.out.println("A média de quilometros por litro foi de: " + mediaKm + " Km/l");
 		
 		leitor.close();
 	}
